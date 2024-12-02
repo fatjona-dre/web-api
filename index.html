@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menaxhimi i Ankesave</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Platforma e Menaxhimit të Ankesave dhe Feedback-ut</h1>
+    <form id="complaint-form">
+        <input type="text" id="title" placeholder="Titulli i ankesës" required>
+        <textarea id="description" placeholder="Përshkrimi i ankesës" required></textarea>
+        <button type="submit">Dërgo Ankesa</button>
+    </form>
+
+    <h2>Ankesat</h2>
+    <ul id="complaint-list"></ul>
+
+    <script src="app.js"></script>
+</body>
+</html>
